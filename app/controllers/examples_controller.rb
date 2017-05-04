@@ -29,7 +29,30 @@ class ExamplesController < ApplicationController
     render "guessing_game.html.erb"
   end
 
+  def url_segment_params
+    @url_param = params[:variable]
+    render "url_segment_params.html.erb"
+  end
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

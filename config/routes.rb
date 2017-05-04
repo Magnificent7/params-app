@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get "/name" => "examples#name"
 
   get "/guessing_game" => "examples#guessing_game"
+
+  get "/url_segment_params/:variable" => "examples#url_segment_params"
 end
